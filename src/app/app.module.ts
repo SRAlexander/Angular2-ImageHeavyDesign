@@ -7,6 +7,8 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SharedModule } from './shared/shared.module';
 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
