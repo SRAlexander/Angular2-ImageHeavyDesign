@@ -12,13 +12,16 @@
         <a class="nav-link" [routerLink]="['/about']">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/projects']">Projects</a>
+        <a class="nav-link" [routerLink]="['/projects']">People</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/projects']">Places</a>
       </li>
 
     </ul>
   </div>
 </nav>
 
-<div id="page-container">
+<div id="page-container" class="fluid-container">
   <router-outlet></router-outlet>
 </div>
