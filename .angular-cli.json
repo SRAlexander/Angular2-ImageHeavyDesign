@@ -22,7 +22,11 @@
         "../node_modules/bootstrap/dist/css/bootstrap.min.css", 
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery-slim/dist/jquery.slim.min.js",
+        "../node_modules/bootstrap/js/dist/util.js",
+        "../node_modules/bootstrap/js/dist/collapse.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

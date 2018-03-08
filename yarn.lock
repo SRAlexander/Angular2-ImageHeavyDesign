@@ -3731,6 +3731,10 @@ jasminewd2@^2.1.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/jasminewd2/-/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
 
+jquery-slim@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/jquery-slim/-/jquery-slim-3.0.0.tgz#87ab2fa10501798e93124a4b5eb953c85379707e"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.npmjs.org/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
