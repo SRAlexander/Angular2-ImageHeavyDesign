@@ -24,6 +24,7 @@
         "styles.scss"
       ],
       "scripts": [
+        "../node_modules/skrollr/dist/skrollr.min.js",
         "../node_modules/jquery-slim/dist/jquery.slim.min.js",
         "../node_modules/bootstrap/js/dist/util.js",
         "../node_modules/bootstrap/js/dist/collapse.js"

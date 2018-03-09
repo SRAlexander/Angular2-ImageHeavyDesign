@@ -6247,6 +6247,10 @@ silent-error@^1.0.0:
   dependencies:
     debug "^2.2.0"
 
+skrollr@^0.6.26:
+  version "0.6.26"
+  resolved "https://registry.npmjs.org/skrollr/-/skrollr-0.6.26.tgz#65d1aafcc69fc6d27e6cff0f086c25b31b20ab18"
+
 slack-node@~0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/slack-node/-/slack-node-0.2.0.tgz#de4b8dddaa8b793f61dbd2938104fdabf37dfa30"

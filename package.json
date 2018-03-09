@@ -26,6 +26,7 @@
     "jquery-slim": "^3.0.0",
     "ngx-bootstrap": "^2.0.2",
     "rxjs": "^5.5.6",
+    "skrollr": "^0.6.26",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {

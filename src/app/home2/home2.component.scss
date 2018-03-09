@@ -1,0 +1,88 @@
+$nu : 80vh;
+$w : 100%;
+$dkgrey: #222;
+$ltgrey: #bbb;
+
+body { 
+  font-family: 'Oxygen', sans-serif;
+  background: #000;
+}
+
+.accelerate {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+section {
+  width: $w;
+  height: $nu;
+  overflow: hidden;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #fff;
+    a {
+      color: #888;
+    }
+  }
+
+.pllax-bk {
+     width: $w;
+     height: $nu*2;
+     background-size: cover;
+     z-index: -1;
+     position: absolute;
+     @extend .accelerate;
+   }
+
+   
+.one {
+  .pllax-bk {
+    background: url("http://www.w3schools.com/howto/img_parallax.jpg") no-repeat;
+        width: $w;
+        height: $nu*2;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        @extend .accelerate;
+    }
+}
+.two {
+    .pllax-bk {
+        background: url("/assets/photos/DSC_2311.jpg") no-repeat;
+        width: $w;
+        height: $nu*2;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        @extend .accelerate;
+
+        
+    }
+}
+
+.three {
+    .pllax-bk {
+        background: url("https://img.webnots.com/2015/11/parallax2.jpg") no-repeat;
+        width: $w;
+        height: $nu*2;
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        @extend .accelerate;
+    }
+}
+
+@media screen and ( min-height: 600px ) {
+  section { height: 400px !important; } 
+  .pllax-bk, .pllax-contain { height: 800px !important; } 
+}
+
+@media screen and ( max-width: 700px ) {
+.content {
+    padding: 10px 4% !important;
+    p { font-size: 11px !important; }
+  }
+}

@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SharedModule } from './shared/shared.module';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { Home2Component } from './home2/home2.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    Home2Component
   ],
   imports: [
     SharedModule,
